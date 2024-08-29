@@ -10,8 +10,8 @@
 .caja-p-1 {
     width: 30%;
     height: 100%;
-    background-color: aquamarine;
-    border: 7px solid #333;
+    background-color: rgb(111, 28, 219);
+    border: 7px solid #fafafa;
     overflow-y: scroll;
     border-radius: 22px;
     margin-left: 2%;
@@ -20,8 +20,8 @@
 .caja-p-2 {
     width: 65%;
     height: 100%;
-    background-color: chocolate;
-    border: 7px solid #333;
+    background-color: rgb(111, 28, 219);
+    border: 7px solid #fdf6f6;
     padding: 30px;
     border-radius: 22px;
 }
@@ -37,14 +37,14 @@
 }
 
 .cajasp {
-    background-color: brown;
+    background-color: rgb(133, 23, 236);
     width: 80%;
     height: 40%;
     padding: 5%;
     margin-top: 5%;
     margin-left: 10%;
     border-radius: 20px;
-    border: 8px solid #333;
+    border: 8px solid #fffefe;
     box-shadow: 10px 10px 20px #333;
 }
 
