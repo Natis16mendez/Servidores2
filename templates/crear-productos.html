@@ -9,7 +9,7 @@
         <input type="hidden" name="id_producto" value="{{productos.id if productos else ''}}">
         <!--Espacio para el nombre-->
         <label for="nombre">Nombre: </label>
-        <input type="texto" name="producto.nombre" value="{{productos.nombre if productos else ''}}" required> <br><br> 
+        <input type="texto" name="nombre" value="{{ productos.nombre if productos else ''}}" required> <br><br> 
         <!--Espacio para la descripcion-->
         <label for="descripcion">Descripcion: </label>
         <input type="texto" name="descripcion" value="{{productos.descripcion if productos else ''}}" required> <br><br> 

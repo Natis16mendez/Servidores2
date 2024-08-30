@@ -1,7 +1,7 @@
 import sqlite3
 
 def conectar():
-    conector = sqlite3.connect('producto.db')
+    conector = sqlite3.connect('productos.db')
     conector.row_factory = sqlite3.Row
     return conector
 
